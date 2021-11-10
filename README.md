@@ -15,19 +15,26 @@ install the requirments
 pip install -r requirements.txt
 ```
 
+```bash
 git init
+```
 
+```bash
 dvc init
+```
 
+```bash
 dvc add data_given/winequality.csv
+```
 
 updates for readme
-
-git add . 
+```bash
+git add .
 
 git commit -m "first commit"
 
 git add . && git commit -m "update Readme.md"
 
 git push origin main
+```
 
