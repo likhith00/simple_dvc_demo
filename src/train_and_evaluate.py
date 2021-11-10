@@ -69,7 +69,6 @@ def train_and_evaluate(config_path):
             'l1_ratio':l1_ratio
         }
         json.dump(params,f,indent=4)
-    
 
 
     os.makedirs(model_dir, exist_ok=True)
