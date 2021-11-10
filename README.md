@@ -29,3 +29,5 @@ git commit -m "first commit"
 
 git add . && git commit -m "update Readme.md"
 
+git push origin main
+
