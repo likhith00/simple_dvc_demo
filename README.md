@@ -24,3 +24,5 @@ dvc add data_given/winequality.csv
 git add . 
 
 git commit -m "first commit"
+
+git add . && git commit -m "update Readme.md"
