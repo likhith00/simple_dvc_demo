@@ -37,4 +37,29 @@ git add . && git commit -m "update Readme.md"
 
 git push origin main
 ```
+tox command - 
+```bash
+tox
+```
+
+for rebuilding - 
+```bash
+tox -r
+```
+
+pytest
+```bash
+pytest -v
+```
+
+setup commands -
+```bash
+pip install -e .
+```
+
+build your own package commands -
+```bash
+python setup.py sdist bdist_wheel
+```
+
 
