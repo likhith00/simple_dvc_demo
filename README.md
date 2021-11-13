@@ -68,6 +68,6 @@ mlflow server command -
 mlflow server \
     --backend-store-uri sqlite:///mlflowdb \
     --default-artifact-root ./artifacts \
-    --host 0.0.0.0 -p 1234
+    --host localhost -p 1234
 
 
